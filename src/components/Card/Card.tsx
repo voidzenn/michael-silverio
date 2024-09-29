@@ -1,15 +1,21 @@
 import { ReactNode } from "react";
 
 interface ICard {
-  cardImage?: ReactNode
+  imageUrl?: string
   cardBody?: ReactNode
+  cardFooter?: ReactNode
 }
 
-const Card = ({ cardImage, cardBody }: ICard) => {
+const Card = ({ imageUrl, cardBody, cardFooter }: ICard) => {
   return (
     <div className="flex flex-col">
-      <div>{cardImage}</div>
-      <div>{cardBody}</div>
+      <img
+        src={imageUrl}
+        alt="img"
+        className="flex w-full mx-auto justify-center rounded-lg border-2 border-gray-100 max-h-96 object-cover object-top"
+      />
+      <div className="mx-5 my-3">{cardBody}</div>
+      <div className="mx-3 my-3">{cardFooter}</div>
     </div>
   );
 };

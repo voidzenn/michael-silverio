@@ -28,7 +28,7 @@ const Home = () => {
       <>
         <div className="mx-60 flex gap-4">
           <span className="text-xs">Made by</span>
-          <a href="test.com" className="ml-[-10px] mb-[-30px] text-xs underline">
+          <a href="https://github.com/voidzenn" target="_" className="ml-[-10px] mb-[-30px] text-xs underline z-20 hover:cursor-pointer">
             Michael Silverio
           </a>
         </div>
