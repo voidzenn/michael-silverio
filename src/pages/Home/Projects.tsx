@@ -14,7 +14,7 @@ const Projects = () => {
       <h5 className="text-xl font-normal mt-4 ml-2">Web</h5>
       <div className="mt-8 grid gap-x-16 gap-y-16 grid-cols-2">
         <Card
-          imageUrl="https://private-user-images.githubusercontent.com/47482620/355063923-526ace27-cc08-4037-b754-dc5dfb15a803.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjc2ODkxNjUsIm5iZiI6MTcyNzY4ODg2NSwicGF0aCI6Ii80NzQ4MjYyMC8zNTUwNjM5MjMtNTI2YWNlMjctY2MwOC00MDM3LWI3NTQtZGM1ZGZiMTVhODAzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTMwVDA5MzQyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThkNjY2NWZlMzc2NzRhMTc5OTJmZDVjYzU3YWY3M2JhYWUzYjNmOWY5N2Y4NDhlNWQ0MDljMDk4ZTFhNmFmNjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.UdYdBLU6Fq8nmqBboLcE6YapnapvUp9fFKx-9Qi6VmY"
+          imageUrl="https://github.com/user-attachments/assets/526ace27-cc08-4037-b754-dc5dfb15a803"
           cardBody={
             <>
               <Button
@@ -49,7 +49,7 @@ const Projects = () => {
           }
         />
         <Card
-          imageUrl="https://private-user-images.githubusercontent.com/47482620/371850991-58e74231-82ca-4129-b5c5-1c1b865503d8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjc2ODkyMTYsIm5iZiI6MTcyNzY4ODkxNiwicGF0aCI6Ii80NzQ4MjYyMC8zNzE4NTA5OTEtNThlNzQyMzEtODJjYS00MTI5LWI1YzUtMWMxYjg2NTUwM2Q4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTMwVDA5MzUxNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk2NTFlNWMxYTM4NTRjZmUxMDk2OGZhZGUyMWNhMjQ4ODhlODc2YjU2YWMzMWFlZDlkYTdkOTI5MzQzMTI1YjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.S_hcSsKsChF-8JXeu9eq5uz5r93bp2dAvV1yNUJ5w2M"
+          imageUrl="https://github.com/user-attachments/assets/58e74231-82ca-4129-b5c5-1c1b865503d8"
           cardBody={
             <>
               <Button
@@ -124,7 +124,7 @@ const Projects = () => {
       <h5 className="mt-20 ml-2 text-lg font-normal">Non - Web</h5>
       <div className="mt-8 grid grid-cols-2 gap-x-16 gap-y-16">
         <Card
-          imageUrl="https://private-user-images.githubusercontent.com/47482620/361764930-4b435bde-f9be-4299-8476-a3ee966c3740.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjc2ODkyOTYsIm5iZiI6MTcyNzY4ODk5NiwicGF0aCI6Ii80NzQ4MjYyMC8zNjE3NjQ5MzAtNGI0MzViZGUtZjliZS00Mjk5LTg0NzYtYTNlZTk2NmMzNzQwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTMwVDA5MzYzNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE1YzcxYTI5ODlmNDY1ZWVhOTE3N2NiN2Y1YjljYjE5ZWExNWY1ZDhlMGM2MGFkMzhmMzQzZjQ1Y2FkY2FlZTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.90q0dare40CwF_awkyAhmmgINhq6bcOKEQ4VIfgGf4c"
+          imageUrl="https://github.com/user-attachments/assets/4b435bde-f9be-4299-8476-a3ee966c3740"
           cardBody={
             <Button
               title="Go to repository"
@@ -146,7 +146,7 @@ const Projects = () => {
           }
         />
         <Card
-          imageUrl="https://private-user-images.githubusercontent.com/47482620/248714501-99d5c881-bfae-403f-b000-d8b1197aacc1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjc2ODkzMzMsIm5iZiI6MTcyNzY4OTAzMywicGF0aCI6Ii80NzQ4MjYyMC8yNDg3MTQ1MDEtOTlkNWM4ODEtYmZhZS00MDNmLWIwMDAtZDhiMTE5N2FhY2MxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTMwVDA5MzcxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJkNzdkNTUxY2RhNjMxMWVhMjMxYWJjYzg1YzFkMTAwYjgyNDZkNWIwYTU2MjNkMDI1YTZjZWY3ZGM3NmViYjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.1IPBk3by6qKlhfVyz4iAdjZXwOHjR84PeBqfsehefbw"
+          imageUrl="https://github.com/voidzenn/pygame_tic-tac-toe/assets/47482620/99d5c881-bfae-403f-b000-d8b1197aacc1"
           cardBody={
             <Button
               title="Go to repository"
