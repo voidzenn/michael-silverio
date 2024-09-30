@@ -24,10 +24,11 @@ const Projects = () => {
                     'https://github.com/voidzenn/file_manager_fe#preview'
                   )
                 }
+                type="link"
               >
                 File Manager
               </Button>
-              <p className="mx-3 mt-2 opacity-35 text-justify">
+              <p className="mx-3 mt-2 opacity-30 text-justify leading-6">
                 Allows users to manage their files and folders seamlessly. The
                 app uses Minio for object storage, ensuring that the structure
                 in the File Manager UI mirrors the structure in Minio, providing
@@ -58,10 +59,11 @@ const Projects = () => {
                     'https://github.com/voidzenn/blog_management#preview'
                   )
                 }
+                type="link"
               >
                 Blog Management
               </Button>
-              <p className="mx-3 mt-2 opacity-35 text-justify">
+              <p className="mx-3 mt-2 opacity-30 text-justify leading-6">
                 Built a blog management platform using ActiveAdmin and Hotwire,
                 allowing admins to seamlessly create, edit, and manage blog
                 posts. Developed user-facing features for browsing, searching,
@@ -92,10 +94,11 @@ const Projects = () => {
                     'https://github.com/voidzenn/e-learning#app-images'
                   )
                 }
+                type="link"
               >
-                E-learning
+                E - learning
               </Button>
-              <p className="mx-3 mt-2 opacity-35 text-justify">
+              <p className="mx-3 mt-2 opacity-30 text-justify leading-6">
                 Developed an e-learning platform where admins create word-based
                 quizzes within categories. Users select categories, answer
                 word-choice quizzes, and view results upon completion. Built
@@ -130,6 +133,7 @@ const Projects = () => {
                   'https://github.com/voidzenn/fruit_matcher?tab=readme-ov-file#preview'
                 )
               }
+              type="link"
             >
               Fruit Matcher
             </Button>
@@ -151,6 +155,7 @@ const Projects = () => {
                   'https://github.com/voidzenn/pygame_tic-tac-toe#images'
                 )
               }
+              type="link"
             >
               Tic Tac Toe
             </Button>

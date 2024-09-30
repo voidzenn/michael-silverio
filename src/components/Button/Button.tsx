@@ -2,14 +2,16 @@ import React from 'react';
 import clsx from 'clsx';
 
 interface IButton extends React.HTMLProps<HTMLButtonElement> {
-  title?: string
-  variant?: 'ghost'
-  className?: string
+  type?: 'button' | 'link';
+  title?: string;
+  variant?: 'ghost';
+  className?: string;
   onClick?: () => void;
 }
 
 const Button: React.FC<IButton> = ({
   children,
+  type = 'button',
   title,
   variant,
   className,
@@ -38,7 +40,8 @@ const Button: React.FC<IButton> = ({
       className={clsx(
         'hover:bg-gray-100 px-3 py-2 rounded-md',
         buttonVariant,
-        className
+        className,
+        type === 'link' ? 'underline' : null
       )}
       title={title}
       onClick={onClick}
