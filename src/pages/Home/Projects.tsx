@@ -77,7 +77,7 @@ const Projects = () => {
               </>
             }
             cardFooter={
-              <div className="flex gap-2">
+              <div className="flex gap-2 ml-2">
                 <Badge>Rails</Badge>
                 <Badge>Hotwire</Badge>
                 <Badge>Tailwindcss</Badge>
@@ -115,7 +115,7 @@ const Projects = () => {
               </>
             }
             cardFooter={
-              <div className="flex gap-2">
+              <div className="flex gap-2 ml-2">
                 <Badge>React</Badge>
                 <Badge>Laravel</Badge>
                 <Badge>Redux</Badge>
@@ -144,7 +144,7 @@ const Projects = () => {
               </Button>
             }
             cardFooter={
-              <div className="flex gap-2">
+              <div className="flex gap-2 ml-2">
                 <Badge>Ruby</Badge>
                 <Badge>Ruby2d</Badge>
               </div>
@@ -167,7 +167,7 @@ const Projects = () => {
               </Button>
             }
             cardFooter={
-              <div className="flex gap-2">
+              <div className="flex gap-2 ml-2">
                 <Badge>Python</Badge>
                 <Badge>Pygame</Badge>
               </div>
