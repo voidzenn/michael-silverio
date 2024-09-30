@@ -17,11 +17,15 @@ const Contacts = () => {
     );
   };
 
+  const handleEmailClick = () => {
+    window.location.href = 'mailto:mikesil121@gmail.com';
+  }
+
   return (
     <div className="flex gap-4 mx-60 my-20">
       <Button onClick={handleGithubClick}>Github</Button>
       <Button onClick={handleLinkedInClick}>LinkedIn</Button>
-      <Button>Email</Button>
+      <Button onClick={handleEmailClick}>Email</Button>
     </div>
   );
 }

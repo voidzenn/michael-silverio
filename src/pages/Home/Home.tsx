@@ -1,4 +1,5 @@
 import '../../App.css';
+import './Home.css';
 import NavigationMenu from './NavigationMenu';
 import Work from './Work';
 import Projects from './Projects';
@@ -14,7 +15,7 @@ const Home = () => {
   const Greeting = () => {
     return (
       <div className="mx-60 mt-14 2s transition-opacity ease-in opacity-100 duration-700">
-        <p className="text-[100px] leading-normal">
+        <p className="greeting text-[100px] leading-normal">
           Hi <br />
           I'm <b className="font-medium">Michael Silverio</b> - curios developer
           that loves learning new concepts
@@ -40,13 +41,14 @@ const Home = () => {
     <>
       <div className="flex flex-col w-full">
         <GradientHeader />
-        <NavigationMenu />
+        {/* <NavigationMenu /> */}
+        <div className="my-12"></div>
         <Greeting />
         <Contacts />
-        <Work />
+        {/* <Work /> */}
         <Projects />
         <Contacts />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

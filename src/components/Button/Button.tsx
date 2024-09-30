@@ -2,12 +2,19 @@ import React from 'react';
 import clsx from 'clsx';
 
 interface IButton extends React.HTMLProps<HTMLButtonElement> {
+  title?: string
   variant?: 'ghost'
   className?: string
   onClick?: () => void;
 }
 
-const Button: React.FC<IButton> = ({ children, variant, className, onClick }) => {
+const Button: React.FC<IButton> = ({
+  children,
+  title,
+  variant,
+  className,
+  onClick,
+}) => {
   const ghostButtonStyle = () => {
     return '123';
   };
@@ -33,6 +40,7 @@ const Button: React.FC<IButton> = ({ children, variant, className, onClick }) =>
         buttonVariant,
         className
       )}
+      title={title}
       onClick={onClick}
     >
       {children}
