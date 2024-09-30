@@ -23,8 +23,8 @@ const Card = ({ imageUrl, cardClassName, cardBody, cardFooter }: ICard) => {
           className="flex w-full mx-auto justify-center rounded-lg border-2 border-gray-100 max-h-96 object-cover object-top"
         />
       )}
-      {cardBody && <div className="mx-5 my-3">{cardBody}</div>}
-      {cardFooter && <div className="mx-5 mt-4 mb-5">{cardFooter}</div>}
+      {cardBody && <div className="mx-8 my-3">{cardBody}</div>}
+      {cardFooter && <div className="mx-8 mt-4 mb-5">{cardFooter}</div>}
     </div>
   );
 };

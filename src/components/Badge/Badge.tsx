@@ -9,7 +9,7 @@ const Badge: React.FC<IBadge> = ({ children, className }) => {
   return (
     <span
       className={clsx(
-        'inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs bg-gray-100 text-black font-normal',
+        'inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs bg-gray-100 text-black text-opacity-55 font-normal',
         className
       )}
     >
